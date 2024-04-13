@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Age calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style> -->
+</head>
+<body>
+
+
+
+  <main>
+    <section class="input">
+      <div class="input-date">
+
+        <div >
+          <p id="if-field"> Day</p>
+          <input type="number" id="day" maxlength="2" placeholder="DD">
+          <span id="field"><i>this field is required</i></span>
+          <span id="valid"><i>must be field day</i></span>
+          <span id="valid-day"><i>must be field date</i></span>
+        </div>
+
+        <div>
+          <p id="if-field"> Month</p>
+          <input type="number" id="month" maxlength="2" placeholder="MM">
+          <span id="field"><i>this valid is required</i></span>
+          <span id="valid"><i>must be valid month</i></span>
+          <span id="valid-month"><i>must be field date</i></span>
+        </div>
+
+          <div>
+          <p id="if-field">Year</p>
+          <input type="number" id="year" maxlength="4" placeholder="YYYY">
+          <span id="field"><i>this field is required</i></span>
+          <span id="valid"><i>must be in the past</i></span>
+          <span id="valid-year"><i>must be field past</i></span>
+        </div>
+      </div>
+
+      <hr>
+      <button id="btn"><img src="icon-arrow.svg" alt=""></button>
+    </section>
+
+    <section class="output">
+
+      <div class="output-year">
+        <p> <span id="actual-year">- -</span> years</p>
+        <p> <span id="actual-month">- -</span> months</p>
+        <p> <span id="actual-day">- -</span> days</p>
+      </div>
+
+    </section>
+
+  </main>
+
+  <script src="main.js"></script>
+   <!-- 
+  Day
+  DD
+
+  Month
+  MM
+
+  Year
+  YYYY
+
+  -- years
+  -- months
+  -- days
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>-->
+</body>
+</html>
